@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import tensorboard
 
-resource='C:/Users/zech/Desktop/代码/input.mat'
+resource='Input data path'
 data_struct=sio.loadmat(resource)
 X_train=data_struct['train_data']
 X_train=X_train.reshape([515,3,30,7])
